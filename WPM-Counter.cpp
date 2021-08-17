@@ -37,7 +37,7 @@ std::string findLine(int lineToFind) {
     }
     else {
         ExcerptFile.close();
-        return "ERROR: The file either could not be opened, or is not as long as your number.\n";
+        return "ERROR: The file either could not be opened, or the RNG generated a bad number.\n";
         // The file contains fewer than two lines.
     }
 }
